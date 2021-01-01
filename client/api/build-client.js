@@ -12,7 +12,7 @@ const buildClient = ({ req }) => {
   } else {
     // on the browser
     return axios.create({
-      baseURL: '/',
+      baseURL: 'www.karasi-ticketing-app.xyz/',
     });
   }
 };
