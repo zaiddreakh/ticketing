@@ -16,6 +16,7 @@ spec:
         - name: auth
           image: zaiddreakh/auth
           # image: us.gcr.io/ticketing-dev-298014/auth
+          # image: us.gcr.io/ticketing-dev-298014/auth
           env:
             - name: MONGO_URI
               value: 'mongodb://auth-mongo2-srv:27017/auth'
